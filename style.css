@@ -1,0 +1,297 @@
+body{
+    align-items: center;
+
+}
+.main{
+    background-color: white;
+    padding: 20px;
+    height: 850px;
+    margin-bottom: 50px; ;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+    }
+
+header {
+    color: #fff;
+    padding: 0px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+ .right ul {
+    list-style: none;
+    padding: 0; /* Remove padding and bullet points */
+    display: flex;
+    flex-direction: inline;
+    gap: 1rem;
+    align-items: center;
+    }
+ .right{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-right: 50px;
+}
+ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    
+}
+.right .button {
+    width: 180px;
+    height: 40px;
+    background-color:#18CB5F;
+    border: none;
+    border-radius: 10px;
+}
+.left .logo{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* Paragraph and picture */
+
+.bitcoin{
+    margin-left: 150px;
+    margin-top: 140px;
+}
+
+ /* Paragraphs */
+  .container {
+    width: 1264px;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    /*background-color: aquamarine;*/
+}
+
+.content {
+    width: 632px;
+    /*background-color: antiquewhite;*/
+    margin-top: 140px;
+    margin-left: 140px;
+}
+.button2 {
+    width: 200px;
+    height: 50px;
+    background-color:#18CB5F;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .picture {
+    width: 632px;
+    /*background-color: darkolivegreen;*/
+    
+}
+.content ul {
+    list-style: none;
+    padding: 0; /* Remove padding and bullet points */
+    display: flex;
+    align-items: center;
+}
+.content ul li {
+    display: inline;
+    margin-right: 0px;
+    margin: 20px;
+}
+
+.p1{
+color: #000;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.p2{
+color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+/* About page */
+.about{
+    background-color: white;
+    padding: 20px;
+    height: 850px;
+    margin-bottom: 50px; ;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+
+}
+.leftPics{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 140px;
+    margin-left: 140px; 
+}
+.ethereum{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    
+}
+.bitcoin2{
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+}
+.binance{
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+}
+.rightDesc{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.rightDesc .aboutText{
+    color: #18CB5F;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+/* Features Page */
+.features{
+    background-color: white;
+    padding: 20px;
+    height: 850px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.title{
+    margin-left: 450px;
+}
+.content_pics{
+    display: flex;
+    flex-direction: row; 
+}
+.first{
+    display: flex;
+    flex-direction: column; 
+}
+.second{
+    display: flex;
+    flex-direction: column 
+}
+.third{
+    display: flex;
+    flex-direction: column; 
+}
+.fees{
+    width: 100px;
+    height: 100px;
+    
+}
+.currency{
+    width: 100px;
+    height: 100px;
+    
+}
+.verification{
+    width: 100px;
+    height: 100px;
+    
+}
+.button2{
+    margin-left: 500px;
+}
+
+
+/*Services*/
+
+.services{
+    background-color: white;
+    padding: 20px;
+    height: 850px;
+    margin-bottom: 50px; ;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.content_services{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+/*Create NFTs*/
+.nft{
+    background-color: white;
+    padding: 20px;
+    height: 850px;
+    margin-top: 200px;
+    margin-bottom: 50px; ;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.bored{
+    width: 150px;
+    height: 170px;
+}
+.qmr{
+    width: 150px;
+    height: 170px;
+}
+.fo3{
+    width: 150px;
+    height: 170px;
+}
+.btnCreate{
+    width: 200px;
+    height: 50px;
+    background-color:#18CB5F;
+    border: none;
+    border-radius: 10px;
+}
+
+/*Sponsors*/
+
+.sponsors{
+    display: flex;
+    flex-direction: row;
+    background-color: #18CB5F;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+.twitter{
+    width: 50px;
+    height: 50px;
+}
+.xentral{
+    width: 50px;
+    height: 50px;
+}
+.paypal{
+    width: 50px;
+    height: 50px;
+}
+.netflix{
+    width: 50px;
+    height: 50px;
+}
+.salesforce{
+    width: 50px;
+    height: 50px;
+}
+.pinterest{
+    width: 50px;
+    height: 50px;}
